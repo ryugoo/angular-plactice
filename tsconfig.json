@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "noImplicitAny": true,
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "moduleResolution": "node"
+    },
+    "fileGlob": [
+        "./**/*.ts",
+        "!./**/*.d.ts",
+        "!./node_modules/**/*",
+        "./node_modules/typescript/lib/lib.es6.d.ts"
+    ],
+    "files": [
+        "./index.ts"
+    ]
+}
